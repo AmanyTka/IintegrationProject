@@ -4,14 +4,23 @@ import java.util.Arrays;
 import java.util.List;
 
 import com.esprit.exception.CouldNotStartException;
-
+/**
+ * cette classe decrit une implementation d'une voiture
+ * @author Ahmado
+ *
+ */
 public class Car {
-
+/**
+ * injection d'un SMSModule
+ */
 	//ahmed test 2
 	SMSModule smsModule;
 	
 	private boolean started=false;
-	
+	/**
+	 * 
+	 * @param direction direction des cles
+	 */
 	public void turnKey(String direction) {
 		
 		
