@@ -11,6 +11,8 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.runners.MockitoJUnitRunner;
 
+import com.esprit.Car;
+import com.esprit.SMSModule;
 import com.esprit.exception.CouldNotStartException;
 
 
@@ -18,6 +20,7 @@ import com.esprit.exception.CouldNotStartException;
 public class CarTest {
 //a new comment from amany
 	//akrem
+	
 	@Mock SMSModule smsModule;
 	
 	@InjectMocks Car car;
@@ -58,7 +61,7 @@ public class CarTest {
 		
 		
 	}
-	
+	//akrem test modification
 	@Test
 	 public void itShouldSendSMSNotificationWhenWrongArgumentIsGiven(){
 		try {
