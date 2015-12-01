@@ -28,7 +28,16 @@
 
 </dependencies>
 
+<distributionManagement>
+<repository>
+<id>deployment</id>
+<url>http://192.168.43.100:8081/nexus/content/repositories/releases/</url>
+</repository>
 
+<snapshotRepository>
+<id>deployment</id>
+</snapshotRepository>
+</distributionManagement>
 
 </project>
 
